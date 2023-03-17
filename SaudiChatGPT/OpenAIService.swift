@@ -4,14 +4,14 @@ import Combine
 
 class OpenAIService {
 
-let api = "https://experimental.willow.vectara.io/v1/"
+let api = "your api key"
 
 
 func sendMessage(message: String) -> AnyPublisher<OpenAICompletionResponse, Error>{
     let body = OpenAICompletionBody(model: "text-davinci-003", prompt: message, temperature: 0.7, max_tokens: 256)
     let headers: HTTPHeaders = [
         "customer-id": "3091600073",
-        "x-api-key": "zqt_uEYSyZvWiPKYseL6tTZVsyQscyxC60KCEpSS6w",
+        "x-api-key": "key 2",
         "Content-Type": "application/json"
     ]
     return Future{ [weak self] promise in
