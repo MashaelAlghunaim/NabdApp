@@ -10,7 +10,7 @@ func sendMessage(message: String) -> AnyPublisher<OpenAICompletionResponse, Erro
 let body = OpenAICompletionBody(model: "text-davinci-003", prompt: message, temperature: 0.7, max_tokens: 1000)
 let headers: HTTPHeaders = [
 "customer-id": "3091600073",
-"x-api-key": "zqt_uEYSyZvWiPKYseL6tTZVsyQscyxC60KCEpSS6w",
+"x-api-key": "",
 "Content-Type": "application/json"
 ]
 return Future{ [weak self] promise in
