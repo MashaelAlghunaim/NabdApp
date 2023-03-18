@@ -4,14 +4,14 @@ import Combine
 
 class OpenAIService {
 
-let api = "your api key"
+let api = "your api"
 
 
 func sendMessage(message: String) -> AnyPublisher<OpenAICompletionResponse, Error>{
-    let body = OpenAICompletionBody(model: "text-davinci-003", prompt: message, temperature: 0.7, max_tokens: 256)
+    let body = OpenAICompletionBody(model: "text-davinci-003", prompt: message, temperature: 0.7, max_tokens: 500)
     let headers: HTTPHeaders = [
         "customer-id": "3091600073",
-        "x-api-key": "key 2",
+        "x-api-key": "x-api-key",
         "Content-Type": "application/json"
     ]
     return Future{ [weak self] promise in
