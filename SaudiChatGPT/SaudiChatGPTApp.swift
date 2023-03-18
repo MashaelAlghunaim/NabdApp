@@ -8,11 +8,11 @@
 import SwiftUI
 
 @main
+
 struct SaudiChatGPTApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            InvestigationView()
+            SplashScreen()
         }
     }
 }

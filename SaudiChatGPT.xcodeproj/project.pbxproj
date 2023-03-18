@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5FF41529C5D00B009C28CD /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FF41429C5D00B009C28CD /* SplashScreen.swift */; };
+		1C5FF41729C5D026009C28CD /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FF41629C5D026009C28CD /* OnBoarding.swift */; };
 		4D3AA99D29C4E650000C1DE0 /* InvestigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AA99C29C4E650000C1DE0 /* InvestigationView.swift */; };
 		4DA470D029C3B0C500014544 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA470CF29C3B0C500014544 /* OpenAIService.swift */; };
 		62B46FB529C240DE00C362E8 /* SaudiChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B46FB429C240DE00C362E8 /* SaudiChatGPTApp.swift */; };
-		62B46FB729C240DE00C362E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B46FB629C240DE00C362E8 /* ContentView.swift */; };
 		62B46FB929C240E000C362E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B46FB829C240E000C362E8 /* Assets.xcassets */; };
 		62B46FBC29C240E000C362E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B46FBB29C240E000C362E8 /* Preview Assets.xcassets */; };
-		62B46FC329C2664F00C362E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B46FC229C2664F00C362E8 /* Constants.swift */; };
 		62B46FC529C26CD700C362E8 /* OldOpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B46FC429C26CD700C362E8 /* OldOpenAIService.swift */; };
 		62B46FC829C26D5700C362E8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 62B46FC729C26D5700C362E8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C5FF41429C5D00B009C28CD /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1C5FF41629C5D026009C28CD /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		4D3AA99C29C4E650000C1DE0 /* InvestigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestigationView.swift; sourceTree = "<group>"; };
 		4DA470CF29C3B0C500014544 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		62B46FB129C240DE00C362E8 /* SaudiChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaudiChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B46FB429C240DE00C362E8 /* SaudiChatGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudiChatGPTApp.swift; sourceTree = "<group>"; };
-		62B46FB629C240DE00C362E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62B46FB829C240E000C362E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B46FBB29C240E000C362E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		62B46FC229C2664F00C362E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		62B46FC429C26CD700C362E8 /* OldOpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldOpenAIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,10 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				62B46FC429C26CD700C362E8 /* OldOpenAIService.swift */,
+				1C5FF41429C5D00B009C28CD /* SplashScreen.swift */,
+				1C5FF41629C5D026009C28CD /* OnBoarding.swift */,
 				4DA470CF29C3B0C500014544 /* OpenAIService.swift */,
 				62B46FB429C240DE00C362E8 /* SaudiChatGPTApp.swift */,
-				62B46FB629C240DE00C362E8 /* ContentView.swift */,
-				62B46FC229C2664F00C362E8 /* Constants.swift */,
 				62B46FB829C240E000C362E8 /* Assets.xcassets */,
 				62B46FBA29C240E000C362E8 /* Preview Content */,
 				4D3AA99C29C4E650000C1DE0 /* InvestigationView.swift */,
@@ -157,11 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B46FB729C240DE00C362E8 /* ContentView.swift in Sources */,
 				62B46FB529C240DE00C362E8 /* SaudiChatGPTApp.swift in Sources */,
+				1C5FF41529C5D00B009C28CD /* SplashScreen.swift in Sources */,
 				4DA470D029C3B0C500014544 /* OpenAIService.swift in Sources */,
-				62B46FC329C2664F00C362E8 /* Constants.swift in Sources */,
 				62B46FC529C26CD700C362E8 /* OldOpenAIService.swift in Sources */,
+				1C5FF41729C5D026009C28CD /* OnBoarding.swift in Sources */,
 				4D3AA99D29C4E650000C1DE0 /* InvestigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SaudiChatGPT/Preview Content\"";
-				DEVELOPMENT_TEAM = TSQFGQSG85;
+				DEVELOPMENT_TEAM = 2KXVWCLZH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SaudiChatGPT/Preview Content\"";
-				DEVELOPMENT_TEAM = TSQFGQSG85;
+				DEVELOPMENT_TEAM = 2KXVWCLZH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
