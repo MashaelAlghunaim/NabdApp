@@ -66,9 +66,9 @@
 				1C5FF41629C5D026009C28CD /* OnBoarding.swift */,
 				4DA470CF29C3B0C500014544 /* OpenAIService.swift */,
 				62B46FB429C240DE00C362E8 /* SaudiChatGPTApp.swift */,
+				4D3AA99C29C4E650000C1DE0 /* InvestigationView.swift */,
 				62B46FB829C240E000C362E8 /* Assets.xcassets */,
 				62B46FBA29C240E000C362E8 /* Preview Content */,
-				4D3AA99C29C4E650000C1DE0 /* InvestigationView.swift */,
 			);
 			path = SaudiChatGPT;
 			sourceTree = "<group>";
